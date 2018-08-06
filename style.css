@@ -22,7 +22,7 @@ body:after {
   bottom: 0;
   right: 0;
   opacity: 0.83;
-  background: linear-gradient(#f1c40f 0%, #27ae60 100%);
+  background: #1f7de8;
 }
 
 div.container > * {
