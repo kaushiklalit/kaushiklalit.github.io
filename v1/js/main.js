@@ -352,6 +352,36 @@
 		}
 	};
 
+	var mentorAnimate = function() {
+		var mentor = $('#fh5co-mentors');
+		if ( mentor.length > 0 ) {	
+
+			mentor.waypoint( function( direction ) {
+										
+				if( direction === 'down' && !$(this.element).hasClass('animated') ) {
+
+
+					setTimeout(function() {
+						mentor.find('.to-animate').each(function( k ) {
+							var el = $(this);
+							
+							setTimeout ( function () {
+								el.addClass('fadeInUp animated');
+							},  k * 200, 'easeInOutExpo' );
+							
+						});
+					}, 200);
+
+					
+
+					$(this.element).addClass('animated');
+						
+				}
+			} , { offset: '80%' } );
+
+		}
+	};
+
 	var countersAnimate = function() {
 		var counters = $('#fh5co-counters');
 		if ( counters.length > 0 ) {	
@@ -464,6 +494,7 @@
 		testimonialAnimate();
 		servicesAnimate();
 		aboutAnimate();
+		mentorAnimate();
 		countersAnimate();
 		contactAnimate();
 		
