@@ -1,174 +1,606 @@
-﻿<!DOCTYPE html>
-<html lang="en">
-	<head>
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
 
-		<title>KV Consultancy</title>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Wish Line Engineering Consultancy</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="" />
+  <meta name="keywords" content="" />
+  <meta name="author" content="" />
 
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta name="description" content="">
-		<meta name="keywords" content="">
+  <!-- 
+	//////////////////////////////////////////////////////
 
-		<link rel="stylesheet" href="assets/css/bootstrap.min.css">
-		<link rel="stylesheet" href="assets/css/style.min.css">
-		<link rel="stylesheet" href="assets/css/utilities.min.css">
-
-		<link rel="stylesheet" href="assets/css/custom.css">
-
-		<link rel="stylesheet" href="assets/css/jquery.fullpage.min.css" type="text/css">
-		<link rel="stylesheet" href="assets/css/slick.min.css" type="text/css">
-		<link rel="stylesheet" href="assets/css/vegas.min.css" type="text/css">
-		<link rel="stylesheet" href="assets/css/magnific-popup.min.css" type="text/css">
-		<link rel="stylesheet" href="assets/css/animate.min.css" type="text/css">
-		<link rel="stylesheet" href="assets/css/fontawesome-all.min.css" type="text/css">
-		<link rel="stylesheet" href="assets/css/themify-icons.css" type="text/css">
-
-		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:200,300,300i,400,400i,700,700i%7CMontserrat:100,200,300,400,500,700">
-
-		<script src="assets/js/modernizr-custom.js"></script>
-
-	</head>
-	<body class="layout-wide">
-
-		<div id="preloader" class="preloader preloader-dark">
-			<div class="loader-status">
-				<div class="circle-side"></div>
-			</div>
-		</div>
-
-		<div class="site-container">
-
-			<div id="top"></div>
+	FREE HTML5 TEMPLATE 
+	DESIGNED & DEVELOPED by FREEHTML5.CO
 		
-			<!-- Site header -->
-			<header class="site-header header-mobile-light header-content-light header-content-mobile-dark">
-				<div class="header-brand">
-					<!-- Logo -->
-					<a class="logo" href="#">
-						<h3>KV Consultancy</h3>
-					</a>
-					<button type="button" id="navigation-toggle" class="nav-toggle">
-						<span></span>
-						<span></span>
-						<span></span>
-					</button>
-				</div>
-				<div class="header-collapse">
-					<div class="header-collapse-inner">
-						<nav class="site-nav">
-							<ul id="navigation">
-								<li data-menuanchor="home">
-									<a href="#home">Home</a>
-								</li>
-								<li data-menuanchor="contact">
-									<a href="#contact">Contact</a>
-								</li>
-							</ul>
-						</nav>
-					</div>
-				</div>
-			</header>
+	Website: 		http://freehtml5.co/
+	Email: 			info@freehtml5.co
+	Twitter: 		http://twitter.com/fh5co
+	Facebook: 		https://www.facebook.com/fh5co
 
-			<!-- Back To Top Button -->
-			<a href="#top" class="backtotop scrollto">
-				<span>Back To Top</span>
-				<i class="fas fa-angle-up"></i>
-			</a>
+	//////////////////////////////////////////////////////
+	 -->
 
-			<!-- Global overlay -->
-			<div class="global-overlay">
-				<div class="overlay-inner" data-gradient-bg="[['#AA076B','#61045F'],['#02AAB0','#00CDAC'],['#DA22FF','#9733EE']]"></div>
-			</div>
+  <!-- Facebook and Twitter integration -->
+  <meta property="og:title" content="" />
+  <meta property="og:image" content="" />
+  <meta property="og:url" content="" />
+  <meta property="og:site_name" content="" />
+  <meta property="og:description" content="" />
+  <meta name="twitter:title" content="" />
+  <meta name="twitter:image" content="" />
+  <meta name="twitter:url" content="" />
+  <meta name="twitter:card" content="" />
 
-			<!-- Scroll progress -->
-			<div class="scroll-progress">
-				<div class="sp-left">
-					<div class="sp-inner"></div>
-					<div class="sp-inner progress"></div>
-				</div>
-				<div class="sp-right">
-					<div class="sp-inner"></div>
-					<div class="sp-inner progress"></div>
-				</div>
-			</div>
+  <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+  <link rel="shortcut icon" href="favicon.ico">
 
-			<!-- Page content -->
-			<div class="ln-fullpage" data-navigation="true">
+  <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,600,400italic,700' rel='stylesheet' type='text/css'>
 
-				<section class="ln-section d-lg-flex fullscreen-lg" data-anchor="home" data-tooltip="Home">
-					<div class="container align-self-lg-center">
-						<div class="row">
-							<div class="col-12 col-lg-9 col-xl-6">
+  <!-- Animate.css -->
+  <link rel="stylesheet" href="css/animate.css">
+  <!-- Icomoon Icon Fonts-->
+  <link rel="stylesheet" href="css/icomoon.css">
+  <!-- Simple Line Icons -->
+  <link rel="stylesheet" href="css/simple-line-icons.css">
+  <!-- Magnific Popup -->
+  <link rel="stylesheet" href="css/magnific-popup.css">
+  <!-- Bootstrap  -->
+  <link rel="stylesheet" href="css/bootstrap.css">
 
-								<!-- <div class="countdown text-white mb-5 animated" data-animation="fadeInUp" data-countdown="2018/11/01 12:00:00"></div> -->
-								<h2 class="text-white mb-5 animated" data-animation="fadeInUp" data-animation-delay="150">Our website is under construction. We`ll be here soon with our new awesome site. Meanwhile have a look at <a href="./beta/" style="font-style:italic; font-weight:bold">beta</a> version.</h2>
+  <!-- 
+	Default Theme Style 
+	You can change the style.css (default color purple) to one of these styles
+	
+	1. pink.css
+	2. blue.css
+	3. turquoise.css
+	4. orange.css
+	5. lightblue.css
+	6. brown.css
+	7. green.css
 
-							</div>
-						</div>
-					</div>
-				</section>
+	-->
+  <link rel="stylesheet" href="css/style3.css">
 
-				<section class="ln-section d-xl-flex" data-anchor="contact" data-tooltip="Contact">
-					<div class="container align-self-center">
-						<div class="row mb-5">
-							<div class="col-12 col-xl-6">
-								<h2 class="text-white mb-4 animated" data-animation="fadeInUp">Contact Us</h2>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-12 col-lg-5 mb-5 mb-lg-0">
-								<div class="row">
-									<div class="col-12 col-md-4 col-lg-6 animated" data-animation="fadeInUp" data-animation-delay="150">
-										<div class="feature-block">
-											<a class="text-white" href="mailto:info@kvconsultancy.in">info@kvconsultancy.in</a>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</section>
+  <!-- Modernizr JS -->
+  <script src="js/modernizr-2.6.2.min.js"></script>
+  <!-- FOR IE9 below -->
+  <!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
 
-			</div>
+</head>
 
-			<!-- Site footer -->
-			<footer class="site-footer footer-content-light footer-mobile-content-light">
-				<div class="overlay">
-					<div class="overlay-inner bg-white"></div>
-				</div>
-				<div class="container socials-container">
-					<nav class="socials-icons">
-						<ul class="mx-auto">
-							<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-							<li><a href="#"><i class="fab fa-twitter"></i></a></li>
-						</ul>
-					</nav>
-				</div>
-				<div class="container copyright-container">
-					<p>© 2018 KV Consultancy - All Rights Reserved</p>
-				</div>
-			</footer>
+<body>
+  <header role="banner" id="fh5co-header">
+    <div class="container">
+      <!-- <div class="row"> -->
+      <nav class="navbar navbar-default">
+        <div class="navbar-header">
+          <!-- Mobile Toggle Menu Button -->
+          <a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle" data-toggle="collapse" data-target="#navbar"
+            aria-expanded="false" aria-controls="navbar"><i></i></a>
+          <a class="navbar-brand" href="index.html">Wish Line Engineering Consultancy</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a href="#" data-nav-section="home"><span>Home</span></a></li>
+            <li><a href="#" data-nav-section="services"><span>Services</span></a></li>
+            <li><a href="#" data-nav-section="mentors"><span>Mentors</span></a></li>
+            <li><a href="#" data-nav-section="work"><span>Work</span></a></li>
+            <li><a href="#" data-nav-section="about"><span>Team</span></a></li>
+            <li><a href="#" data-nav-section="testimonials"><span>Clients</span></a></li>
+            <li><a href="#" data-nav-section="contact"><span>Contact</span></a></li>
+          </ul>
+        </div>
+      </nav>
+      <!-- </div> -->
+    </div>
+  </header>
 
-		</div>
+  <section id="fh5co-home" data-section="home" style="background-image: url(./images/bg2.jpg);"
+    data-stellar-background-ratio="0.5">
+    <div class="gradient"></div>
+    <div class="container">
+      <div class="text-wrap">
+        <div class="text-inner">
+          <div class="row row-bottom-padded-sm">
+            <div class="col-md-8 col-md-offset-2">
+              <h1 class="to-animate">Who we are?</h1>
+              <h2 class="to-animate">
+                We are the team of efficient, qualified professionals having above 20 year experienced with industrial
+                background. We provide the engineering services equipped with experienced professional for Solar design
+                ,Thermal design, Mechanical design, Detail Drawing, Estimation and analysis that helps the clients to
+                realize maximum return from their equipment and of-course from their valuable trust.
+              </h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="slant"></div>
+  </section>
 
-		<script src="assets/js/jquery.min.js"></script>
-		<script src="assets/js/jquery.easing.min.js"></script>
-		<script src="assets/js/bootstrap.bundle.min.js"></script>
-		<script src="assets/js/scrolloverflow.min.js"></script>
-		<script src="assets/js/jquery.fullpage.min.js"></script>
-		<script src="assets/js/jquery.waypoints.min.js"></script>
-		<script src="assets/js/jquery.smooth-scroll.min.js"></script>
-		<script src="assets/js/jquery.validate.min.js"></script>
-		<script src="assets/js/jquery.form.min.js"></script>
-		<script src="assets/js/jquery.magnific-popup.min.js"></script>
-		<script src="assets/js/jquery.countdown.min.js"></script>
-		<script src="assets/js/imagesloaded.pkgd.min.js"></script>
-		<script src="assets/js/granim.min.js"></script>
-		<script src="assets/js/slick.min.js"></script>
-		<script src="assets/js/vegas.min.js"></script>
-		<script src="assets/js/jquery.mb.YTPlayer.js"></script>
+  <section id="fh5co-intro">
+    <div class="container">
+      <div class="row row-bottom-padded-sm">
+        <div class="fh5co-block to-animate" style="background-image: url(images/img_7.jpg);">
+          <div class="overlay-darker"></div>
+          <div class="overlay"></div>
+          <div class="fh5co-text">
+            <i class="fh5co-intro-icon icon-bulb"></i>
+            <h2>Consultancy</h2>
+            <p>Wish Line Engineering Consultancy undertakes consulting projects in the environmental as well as renewable energy sector</p>
+            <p><a href="#fh5co-contact" class="btn btn-primary">Get In Touch</a></p>
+          </div>
+        </div>
+        <div class="fh5co-block to-animate" style="background-image: url(images/img_8.jpg);">
+          <div class="overlay-darker"></div>
+          <div class="overlay"></div>
+          <div class="fh5co-text">
+            <i class="fh5co-intro-icon icon-wrench"></i>
+            <h2>Other Services</h2>
+            <p>
+              Chartered Engineer<br>
+              Design Analysis<br>
+              Automation
+            </p>
+            <p><a href="#" class="btn btn-primary">Know more</a></p>
+          </div>
+        </div>
+        <div class="fh5co-block to-animate" style="background-image: url(images/img_10.jpg);">
+          <div class="overlay-darker"></div>
+          <div class="overlay"></div>
+          <div class="fh5co-text">
+            <i class="fh5co-intro-icon icon-question-circle"></i>
+            <h2>FAQ</h2>
+            <p>All frequently asked questions at one place. For more queries please contact us using details mentioned
+              in contact section.</p>
+            <p><a href="#" class="btn btn-primary">Know more</a></p>
+          </div>
+        </div>
+      </div>
+      <!-- <div class="row watch-video text-center to-animate">
+				<span>Watch the video</span>
 
-		<script src="assets/js/main.min.js"></script>
+				<a href="https://vimeo.com/channels/staffpicks/93951774" class="popup-vimeo btn-video"><i class="icon-play2"></i></a>
+			</div> -->
+    </div>
+  </section>
 
-	</body>
+  <section id="fh5co-services" data-section="services">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 section-heading text-left">
+          <h2 class=" left-border to-animate">Services</h2>
+          <div class="row">
+            <div class="col-md-8 subtext to-animate">
+              <h3>Our experience and technical strength, together with our commitment to service, makes us client’s
+                most valuable resource in total cost management. We provides design supports for clients seeking to
+                manufacture or Installation of equipment that meets International Code i.e. ASME Code and standards,
+                HEI, TEMA, IBR, IS, API etc. or as desired by purchaser.</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 col-sm-6 fh5co-service to-animate">
+          <i class="icon to-animate-2 icon-moon2"></i>
+          <h3>Environment</h3>
+          <p>Wish Line Engineering Consultancy will give you one roof solution of your problem of emission monitoring. What best to client
+            after understanding their requirement as per ministry guideline we give quality system solution to the
+            client.</p>
+        </div>
+        <div class="col-md-6 col-sm-6 fh5co-service to-animate">
+          <i class="icon to-animate-2 icon-sun-o"></i>
+          <h3>Solar Energy</h3>
+          <p>Solar is the lifeline of future on this earth. We believe that quality driven system can only give best to
+            the nature as it enhance life or value of the system, due to which we overcome waste of the future. Towards
+            this we are contributing little bit from our end by giving one roof quality solution to the solar industry.</p>
+        </div>
+
+        <div class="clearfix visible-sm-block"></div>
+
+        <div class="col-md-6 col-sm-6 fh5co-service to-animate">
+          <i class="icon to-animate-2 icon-battery-3"></i>
+          <h3>Hybrid Energy</h3>
+          <p>Wish Line Engineering Consultancy is working closely with customers on projects that can additional investigate the
+            opportunities in hybrid and provide knowledge to direct the future product contribution. Also, Wish Line Engineering Consultancy
+            Consultancy is expanding capabilities through partnerships with industry leaders and close collaboration
+            with suppliers.</p>
+        </div>
+        <div class="col-md-6 col-sm-6 fh5co-service to-animate">
+          <i class="icon to-animate-2 icon-user"></i>
+          <h3>Project Management</h3>
+          <p>Project Management solution is the necessity of any organization. Wish Line Engineering Consultancy believes, any company can
+            grow with innovative value for money solutions. Worry free project solution to the client on their
+            requirement basis.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="fh5co-mentors" data-section="mentors">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 section-heading text-center">
+          <h2 class="to-animate">Our Mentors</h2>
+          <div class="row">
+            <div class="col-md-8 col-md-offset-2 subtext to-animate">
+              <h3></h3>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row row-bottom-padded-lg">
+
+        <div class="col-md-4">
+          <div class="fh5co-person text-center to-animate">
+            <figure><img src="images/team/mentor/siriniwas.png" alt="Image"></figure>
+            <h3>Sh. Shriniwas Sharma</h3>
+            <span class="fh5co-position">30+ Yrs Civil Eng. Experience</span>
+            <p></p>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="fh5co-person text-center to-animate">
+            <figure><img src="images/team/mentor/ramesh.png" alt="Image"></figure>
+            <h3>Dr. Ramesh Chandra Mehta </h3>
+            <span class="fh5co-position">Senior Professor-Delhi University</span>
+            <p></p>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="fh5co-person text-center to-animate">
+            <figure><img src="images/team/mentor/vishal.png" alt="Image"></figure>
+            <h3>Dr. VISHAL SHARMA</h3>
+            <span class="fh5co-position">Assistant Professor & Head, J&K</span>
+            <p>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+
+          <div class="col-md-4">
+              <div class="fh5co-person text-center to-animate">
+                <figure><img src="images/team/mentor/ravinder.jpg" alt="Image"></figure>
+                <h3>Sh. Ravindra Tiwari</h3>
+                <span class="fh5co-position">20+ Yrs Exp., B.Tech. Govt. College</span>
+                <p></p>
+              </div>
+            </div>
+
+        <div class="col-md-4">
+          <div class="fh5co-person text-center to-animate">
+            <figure><img src="images/team/mentor/tarak.png" alt="Image"></figure>
+            <h3>Dr. TARKESHWAR</h3>
+            <span class="fh5co-position">Assistant Professor-Delhi University</span>
+            <p></p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="fh5co-work" data-section="work">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 section-heading text-center">
+          <h2 class="to-animate">Work</h2>
+          <div class="row">
+            <div class="col-md-8 col-md-offset-2 subtext to-animate">
+              <h3>Wishline team has the capability to serve the industry in broad areas with full potential of
+                knowledge, passion and vision. We can assure to deliver best in the market that justify value for
+                money. We not only give you solution but also give you satisfaction of international quality that will
+                boost your image for sustainability</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row row-bottom-padded-sm">
+        <div class="col-md-4 col-sm-6 col-xxs-12">
+          <a href="images/work1.jpg" class="fh5co-project-item image-popup to-animate">
+            <img src="images/work1.jpg" alt="Image" class="img-responsive">
+            <div class="fh5co-text">
+              <h2>50.05 KWp</h2>
+              <span>Yoma-Mayanmar</span>
+            </div>
+          </a>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xxs-12">
+          <a href="images/work2.jpg" class="fh5co-project-item image-popup to-animate">
+            <img src="images/work2.jpg" alt="Image" class="img-responsive">
+            <div class="fh5co-text">
+              <h2>52.65 KWp High Rise Building - P1</h2>
+              <span>Yoma-Mayanmar</span>
+            </div>
+          </a>
+        </div>
+
+        <div class="clearfix visible-sm-block"></div>
+
+        <div class="col-md-4 col-sm-6 col-xxs-12">
+          <a href="images/work3.jpg" class="fh5co-project-item image-popup to-animate">
+            <img src="images/work3.jpg" alt="Image" class="img-responsive">
+            <div class="fh5co-text">
+              <h2>52.65 KWp High Rise Building - P2</h2>
+              <span>Yoma-Mayanmar</span>
+            </div>
+          </a>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xxs-12">
+          <a href="images/work4.jpg" class="fh5co-project-item image-popup to-animate">
+            <img src="images/work4.jpg" alt="Image" class="img-responsive">
+            <div class="fh5co-text">
+              <h2>130 KWp </h2>
+              <span>IOCL(PSU), Ambala</span>
+            </div>
+          </a>
+        </div>
+
+        <div class="clearfix visible-sm-block"></div>
+
+        <div class="col-md-4 col-sm-6 col-xxs-12">
+          <a href="images/work5.jpg" class="fh5co-project-item image-popup to-animate">
+            <img src="images/work5.jpg" alt="Image" class="img-responsive">
+            <div class="fh5co-text">
+              <h2>100 KWp Bottling Plant</h2>
+              <span>IOCL(PSU), Leh, J&K</span>
+            </div>
+          </a>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xxs-12">
+          <a href="images/work_3.jpg" class="fh5co-project-item image-popup to-animate">
+            <img src="images/work_3.jpg" alt="Image" class="img-responsive">
+            <div class="fh5co-text">
+              <h2>Upcoming Projects</h2>
+              <span>Various Locations</span>
+            </div>
+          </a>
+        </div>
+
+        <div class="clearfix visible-sm-block"></div>
+
+      </div>
+  </section>
+
+  <section id="fh5co-about" data-section="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 section-heading text-center">
+          <h2 class="to-animate">Core Consultant Team</h2>
+          <div class="row">
+            <div class="col-md-8 col-md-offset-2 subtext to-animate">
+              <h3></h3>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row row-bottom-padded-lg">
+
+        <div class="col-md-4">
+          <div class="fh5co-person text-center to-animate">
+            <figure><img src="images/team/himanshu.png" alt="Image"></figure>
+            <h3>Himanshu Sharma</h3>
+            <span class="fh5co-position">B.E. NSIT, Delhi</span>
+            <p>Experience with Fractal Analytics, Gurgaon and Fractal Analytics, USA as a Senior Consultant/Associate
+              Director.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="fh5co-person text-center to-animate">
+            <figure><img src="images/team/abhishek.png" alt="Image"></figure>
+            <h3>Abhishek Dixit</h3>
+            <span class="fh5co-position">B.Tech. IIT, Delhi</span>
+            <p>Experience with Various Organizations like Acme Technologies, Dilithium Networks, Nagarro, Samsung, etc.</p>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="fh5co-person text-center to-animate">
+            <figure><img src="images/team/nitin.png" alt="Image"></figure>
+            <h3>Nitin Gupta</h3>
+            <span class="fh5co-position">B.Tech.(UPTU) & MBA(IGNOU)</span>
+            <p>Experience with Motherson Sumi System Limited, Noida, Allied Nippon Ltd., Sahibabad, Ghaziabad, UP</p>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="row">
+
+        <div class="col-md-4">
+          <div class="fh5co-person text-center to-animate">
+            <figure><img src="images/team/prashun.png" alt="Image"></figure>
+            <h3>Er. Prashun Ghatak(CEng)</h3>
+            <span class="fh5co-position">B.Tech in Electrical Engineering</span>
+            <p>Experienced with L&T-EDRC, L&T-MMH &Power Protects Engineering Co.</p>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="fh5co-person text-center to-animate">
+            <figure><img src="images/team/vikas.png" alt="Image"></figure>
+            <h3>Vikash Tiwari</h3>
+            <span class="fh5co-position">B.E., Delhi College of Engineering</span>
+            <p>Experience with Barclay UK, Agilent US, OWCS Consultant, OWCS Consultant, HCLTech, Oracle</p>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="fh5co-person text-center to-animate">
+            <figure><img src="images/team/lalit.png" alt="Image"></figure>
+            <h3>Er. Lalit Kaushik(CEng)</h3>
+            <span class="fh5co-position">B.Tech. MBA (BITS Pilani)</span>
+            <p>Experience with Radico Khaitan Limited, Macawber Beekay Pvt. Ltd., Synnova Power</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="fh5co-testimonials" data-section="testimonials">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 section-heading text-center">
+          <h2 class="to-animate">Clients</h2>
+          <div class="row">
+            <div class="col-md-8 col-md-offset-2 subtext to-animate">
+              <h3>Below are the list of our happy clients.</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row row-bottom-padded-sm">
+        <div class="col-md-4 col-sm-6 col-xxs-12">
+          <img src="images/clients/client1.png" alt="Image" class="img-responsive client-logo">
+        </div>
+        <div class="col-md-4 col-sm-6 col-xxs-12">
+          <img src="images/clients/client2.png" alt="Image" class="img-responsive client-logo">
+        </div>
+        <div class="col-md-4 col-sm-6 col-xxs-12">
+          <img src="images/clients/client3.png" alt="Image" class="img-responsive client-logo">
+        </div>
+      </div>
+      <div class="row row-bottom-padded-sm">
+        <div class="col-md-4 col-sm-6 col-xxs-12">
+          <img src="images/clients/client4.png" alt="Image" class="img-responsive client-logo">
+        </div>
+        <div class="col-md-4 col-sm-6 col-xxs-12">
+          <img src="images/clients/client5.png" alt="Image" class="img-responsive client-logo">
+        </div>
+        <div class="col-md-4 col-sm-6 col-xxs-12">
+          <img src="images/clients/client6.png" alt="Image" class="img-responsive client-logo">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4 col-sm-6 col-xxs-12">
+          <img src="images/clients/client7.png" alt="Image" class="img-responsive client-logo">
+        </div>
+        <div class="col-md-4 col-sm-6 col-xxs-12">
+          <img src="images/clients/client8.png" alt="Image" class="img-responsive client-logo">
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="fh5co-contact" data-section="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 section-heading text-center">
+          <h2 class="to-animate">Get In Touch</h2>
+          <div class="row">
+            <div class="col-md-8 col-md-offset-2 subtext to-animate">
+              <h3>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live
+                the blind texts.</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row row-bottom-padded-md">
+        <div class="col-md-6 to-animate">
+          <h3>Contact Info</h3>
+          <ul class="fh5co-contact-info">
+            <li class="fh5co-contact-address ">
+              <i class="icon-home"></i>
+              C-16, Opposite Navniti Apartments <br>Patparganj, Delhi - 110092
+            </li>
+            <li><i class="icon-phone"></i> (+91) 99100 33708</li>
+            <li><i class="icon-envelope"></i>info@wishline.in</li>
+          </ul>
+        </div>
+
+        <div class="col-md-6 to-animate">
+          <h3>Contact Form</h3>
+          <form action="https://formcarry.com/s/jGz3p6VY-76" method="POST" accept-charset="UTF-8" >
+            <div class="form-group ">
+              <label for="name" class="sr-only">Name</label>
+              <input id="name" class="form-control" placeholder="Name" type="text" name="name">
+            </div>
+            <div class="form-group ">
+              <label for="email" class="sr-only">Email</label>
+              <input id="email" class="form-control" placeholder="Email" type="email" name="email">
+            </div>
+            <div class="form-group ">
+              <label for="phone" class="sr-only">Phone</label>
+              <input id="phone" class="form-control" placeholder="Phone" type="text" name="phone">
+            </div>
+            <div class="form-group ">
+              <label for="message" class="sr-only">Message</label>
+              <textarea id="message" cols="30" rows="5" class="form-control" placeholder="Message" name="message"></textarea>
+            </div>
+            <input type="hidden" name="_gotcha">
+            <div class="form-group ">
+              <input class="btn btn-primary btn-lg" value="Send message" type="submit">
+            </div>
+          </form>
+        </div>
+      </div>
+
+    </div>
+    </div>
+  </section>
+
+
+  <footer id="footer" role="contentinfo">
+    <a href="#" class="gotop js-gotop"><i class="icon-arrow-up2"></i></a>
+    <div class="container">
+      <div class="">
+        <div class="col-md-12 text-center">
+          <p>&copy; Wish Line Engineering Consultancy. All Rights Reserved.</p>
+
+        </div>
+      </div>
+      <!-- <div class="row">
+        <div class="col-md-12 text-center">
+          <ul class="social social-circle">
+            <li><a href="#"><i class="icon-twitter"></i></a></li>
+            <li><a href="#"><i class="icon-facebook"></i></a></li>
+            <li><a href="#"><i class="icon-youtube"></i></a></li>
+          </ul>
+        </div>
+      </div> -->
+    </div>
+  </footer>
+
+  <!-- jQuery -->
+  <script src="js/jquery.min.js"></script>
+  <!-- jQuery Easing -->
+  <script src="js/jquery.easing.1.3.js"></script>
+  <!-- Bootstrap -->
+  <script src="js/bootstrap.min.js"></script>
+  <!-- Waypoints -->
+  <script src="js/jquery.waypoints.min.js"></script>
+  <!-- Stellar Parallax -->
+  <script src="js/jquery.stellar.min.js"></script>
+  <!-- Counter -->
+  <script src="js/jquery.countTo.js"></script>
+  <!-- Magnific Popup -->
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/magnific-popup-options.js"></script>
+  <!-- Google Map -->
+
+  <!-- Main JS (Do not remove) -->
+  <script src="js/main.js"></script>
+
+</body>
+
 </html>
