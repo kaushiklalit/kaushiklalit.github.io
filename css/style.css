@@ -24,13 +24,13 @@ body {
 }
 
 a {
-  color: #52d3aa;
+  color: ##3f9fea;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
 }
 a:hover, a:active, a:focus {
-  color: #52d3aa;
+  color: ##3f9fea;
   outline: none;
 }
 
@@ -530,7 +530,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #fh5co-intro .fh5co-block > .fh5co-text .fh5co-intro-icon {
   font-size: 50px;
-  color: #52d3aa;
+  color: #3f9fea;
   margin-bottom: 30px;
   display: block;
 }
@@ -556,8 +556,8 @@ h1, h2, h3, h4, h5, h6 {
   background: transparent;
 }
 #fh5co-intro .fh5co-block:hover .btn:hover, #fh5co-intro .fh5co-block:focus .btn:hover {
-  background: #52d3aa !important;
-  border: 2px solid #52d3aa !important;
+  background: #3f9fea !important;
+  border: 2px solid #3f9fea !important;
 }
 
 .watch-video {
@@ -579,7 +579,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 120px;
   width: 120px;
   margin: 0 auto;
-  border: 2px solid #52d3aa;
+  border: 2px solid #3f9fea;
   line-height: 0px;
   display: table;
   text-align: center;
@@ -1252,7 +1252,7 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.3s;
 }
 .btn.btn-primary {
-  background: #52d3aa;
+  background: #3f9fea;
   color: #fff;
   border: none !important;
   border: 2px solid transparent !important;
@@ -1303,7 +1303,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
 .social li a.social-circle {
-  background: #52d3aa;
+  background: #3f9fea;
   color: #fff;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -1314,11 +1314,11 @@ h1, h2, h3, h4, h5, h6 {
   background: #393e46 !important;
 }
 .social.social-box a {
-  background: #52d3aa;
+  background: #3f9fea;
   color: #fff;
 }
 .social.social-circle a {
-  background: #52d3aa;
+  background: #3f9fea;
   color: #fff;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
